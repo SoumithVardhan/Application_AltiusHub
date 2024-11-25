@@ -1,0 +1,18 @@
+
+
+Frontend: React.js, Axios (for end points)
+Backend: Node.js, Express.js, MongoDB
+Authentication: JWT (JSON Web Tokens)
+
+
+
+
+user signs in via JWT, which returns a token for authorization.
+Token is included in the request headers 
+
+Task CRUD Operations:
+
+The frontend sends HTTP requests (using Axios) to the backend API to manage tasks (create, update, delete).
+The backend performs the necessary database operations (using Mongoose) and responds with the appropriate data or status.
+
+Task updates are reflected immediately in the UI.
